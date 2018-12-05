@@ -1,0 +1,334 @@
+body {
+  font: 15/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #acafac;
+}
+/* Global */
+.container {
+  width: 100vh;
+  margin: auto;
+  overflow: hidden;
+}
+
+.blue {
+  padding: 15px;
+  background: #0099cc;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+/* Header */
+header {
+  background-color: #0099cc;
+  color: #ffffff;
+  overflow: hidden;
+  background-size: cover;
+  padding-top: 30px;
+  margin: 0;
+  min-height: 70px;
+  position: absolute;
+  width: 100%;
+  border-bottom: #ff3300 5px solid;
+}
+
+header a {
+  color: #660066;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+header a:hover {
+  color: #cc00cc;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 22.5px;
+  font-weight: bold;
+}
+header a:active {
+  color: #000066;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 22.5px;
+  font-weight: bold;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+header li {
+  float: left;
+  padding: 0 20px 0 20px;
+  border-right: 4px solid #ffffff;
+  list-style-type: none;
+}
+
+#featuredbox {
+    color: #ffffff;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 20%;
+  margin-top: 20%
+}
+
+header nav {
+  float: right;
+  margin-top: 20%;
+}
+
+header .highlight, header .current a {
+  color: #660066;
+  font-weight: bold;
+}
+
+/* showcase */
+
+#showcase {
+  min-height: 400px;
+  background:url('banner.jpg') no-repeat;
+  background-size: contain;
+  background-position: 0 0 0 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase h1 {
+  margin-top: 25%;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float:left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img {
+  width: 90px;
+}
+
+aside#sidebar {
+  float: right;
+  width: 50%;
+  margin-top: 10px;
+}
+
+
+
+article#main-col {
+  float: left;
+  width: 100%;
+  height: 40%;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  position: absolute;
+  bottom: -1600px;
+  background-color: #0099cc;
+  height: 20px;
+  width: 100%;
+}
+
+footer p {
+  text-align: left;
+  color: #ffffff;
+  position: relative;
+  top: -10px;
+}
+
+#services {
+  float:right;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  position: absolute;
+  # top: 976px;
+  top: 200%;
+  width: 80%;
+  height: 400px;
+  background-color: #0099cc;
+  border: 2px #fff solid;
+}
+#services .service {
+  float: center;
+  color: white;
+  position: relative;
+}
+
+
+#services .service h2 {
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+  position: relative;
+}
+
+#services .service a {
+  font-size: 15px;
+  font-weight: normal;
+  color: #000000;
+  text-align: center;
+  margin-top: 10px;
+  float: right;
+  position: relative;
+}
+#services .service a:hover {
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: left;
+  float: center;
+  position: relative;
+}
+
+#boxes .box a {
+  font-size: 14px;
+  font-weight: normal;
+  color: #000000;
+  text-align: center;
+  float: center;
+  position: relative;
+}
+#boxes .box a:hover {
+  font-size: 14px;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: center;
+  float: center;
+  position: relative;
+}
+
+/*Music*/
+
+#soundcloud-link {
+	font-weight: semi-bold;
+
+}
+
+.workinprogress-section {
+  background-color: #ffae00;
+  float:right;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  position: absolute;
+  top: 100%;
+  width: 80%;
+  height: 400px;
+  border: 2px #fff solid;
+}
+
+.workinprogress-section h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #ff3801;
+
+
+}
+
+.workinprogress-section h1{
+  font-size: 38px;
+  font-weight: bold;
+  color: #fff;
+
+
+}
+
+.workinprogress-section a {
+  font-size: 20px;
+  font-weight: normal;
+  color: #ff3801;
+
+}
+.workinprogress-section a:hover {
+  font-size: 24px;
+  font-weight: normal;
+  color: #ff3801;
+
+}
+
+
+
+#music {
+  float:right;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  position: absolute;
+  top: 100%;
+  width: 80%;
+  height: 400px;
+  background-color: #0099cc;
+  border: 2px #fff solid;
+}
+#music .song {
+  float: center;
+  color: white;
+  position: relative;
+}
+#music .song h2 {
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
+  position: relative;
+}
+
+#music .song a {
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+  text-align: left;
+  float: left;
+  position: relative;
+}
+#music .song a:hover {
+  font-size: 12px;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: left;
+  float: left;
+  position: relative;
+}
+
+.wrap{
+	white-space: initial;
+	word-wrap: break-word;
+	clear:both;
+	overflow: hidden;
+}
+
+
+/*Media Queries*/
+@media screen and (max-width: 736px) {
+
+}
+
+
+
+@media screen and (max-width: 736px) and (orientation: landscape) {
+
+}
